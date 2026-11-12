@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI Duniya – Artificial Intelligence Made Simple</title>
+<meta name="description" content="Understand Artificial Intelligence in plain English: what AI is, how chatbots work, everyday AI uses, and the benefits and risks.">
+<meta name="keywords" content="artificial intelligence, what is AI, ChatGPT, machine learning, AI tools, AI blog, AI for beginners">
+<meta name="robots" content="index, follow">
+<meta property="og:title" content="AI Duniya – Artificial Intelligence Made Simple">
+<meta property="og:description" content="AI explained in plain English.">
+<meta property="og:type" content="website">
+<style>
+:root{
+  --bg:#f7f8fc; --card:#ffffff; --text:#1c2033; --muted:#5b617a;
+  --accent:#5b4bff; --accent2:#00b3a4; --border:#e3e6f2;
+}
+@media (prefers-color-scheme: dark){
+  :root{ --bg:#0f1220; --card:#181c30; --text:#eceefb; --muted:#a2a8c6; --accent:#8b7dff; --accent2:#2fd6c6; --border:#272c48; }
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;line-height:1.7}
+.wrap{max-width:760px;margin:0 auto;padding:0 16px}
+header.nav{position:sticky;top:0;background:var(--bg);border-bottom:1px solid var(--border);z-index:10}
+header.nav .wrap{display:flex;justify-content:space-between;align-items:center;height:56px}
+.logo{font-weight:800;font-size:1.15rem;color:var(--text);text-decoration:none}
+.logo span{color:var(--accent)}
+nav a{color:var(--muted);text-decoration:none;margin-left:14px;font-size:.95rem}
+nav a:hover{color:var(--accent)}
+.hero{padding:48px 0 32px;text-align:center}
+.hero h1{font-size:clamp(1.9rem,6vw,2.8rem);line-height:1.2;margin:0 0 12px}
+.hero h1 em{font-style:normal;background:linear-gradient(90deg,var(--accent),var(--accent2));-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero p{color:var(--muted);margin:0 auto;max-width:520px}
+.btn{display:inline-block;margin-top:20px;padding:12px 22px;border-radius:999px;background:var(--accent);color:#fff;text-decoration:none;font-weight:600}
+h2.section{margin:36px 0 14px;font-size:1.3rem}
+.grid{display:grid;gap:14px}
+.card{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:18px;text-decoration:none;color:inherit;display:block}
+.card:hover{border-color:var(--accent)}
+.tag{display:inline-block;font-size:.75rem;color:var(--accent2);font-weight:700;text-transform:uppercase;letter-spacing:.04em}
+.card h3{margin:4px 0 6px;font-size:1.1rem}
+.card p{margin:0;color:var(--muted);font-size:.95rem}
+article{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:22px 18px;margin:20px 0}
+article h2{margin:6px 0 4px;font-size:1.45rem;line-height:1.3}
+.meta{color:var(--muted);font-size:.85rem;margin-bottom:12px}
+article h3{margin:20px 0 6px;font-size:1.1rem}
+article ul{padding-left:20px}
+.note{background:rgba(91,75,255,.08);border-left:4px solid var(--accent);padding:10px 14px;border-radius:8px;margin:14px 0}
+.top{font-size:.9rem;color:var(--accent);text-decoration:none}
+footer{border-top:1px solid var(--border);margin-top:40px;padding:24px 0;color:var(--muted);font-size:.9rem;text-align:center}
+</style>
+</head>
+<body>
+
+<header class="nav">
+  <div class="wrap">
+    <a class="logo" href="#top">AI <span>Duniya</span></a>
+    <nav><a href="#posts">Posts</a><a href="#about">About</a><a href="#contact">Contact</a></nav>
+  </div>
+</header>
+
+<main id="top" class="wrap">
+
+  <section class="hero">
+    <h1>Artificial Intelligence, <em>made simple</em></h1>
+    <p>No jargon, no confusion. Learn what AI is, how it works, and how it can help in your everyday life.</p>
+    <a class="btn" href="#posts">Start reading</a>
+  </section>
+
+  <h2 class="section" id="posts">Latest Posts</h2>
+  <div class="grid">
+    <a class="card" href="#post1"><span class="tag">Basics</span><h3>What is AI? A Simple Explanation</h3><p>The difference between AI, Machine Learning and Deep Learning.</p></a>
+    <a class="card" href="#post2"><span class="tag">Chatbots</span><h3>How Do Chatbots Like ChatGPT Work?</h3><p>The technology behind them, with a simple example.</p></a>
+    <a class="card" href="#post3"><span class="tag">Daily Life</span><h3>7 Everyday Uses of AI</h3><p>Practical ways to use AI for study, work and home.</p></a>
+    <a class="card" href="#post4"><span class="tag">Opinion</span><h3>The Benefits and Risks of AI</h3><p>A balanced look at both sides.</p></a>
+  </div>
+
+  <article id="post1">
+    <span class="tag">Basics</span>
+    <h2>What is AI? A Simple Explanation</h2>
+    <div class="meta">12 November 2026 · 3 min read</div>
+    <p><strong>Artificial Intelligence (AI)</strong> means building computers and machines that can do things we normally associate with human thinking: learning, understanding language, recognizing images and making decisions.</p>
+    <h3>Three terms people often mix up</h3>
+    <ul>
+      <li><strong>AI:</strong> The big umbrella idea of making machines "smart".</li>
+      <li><strong>Machine Learning (ML):</strong> A part of AI where machines learn from large amounts of data instead of following hand-written rules.</li>
+      <li><strong>Deep Learning:</strong> An advanced form of ML that uses neural networks, loosely inspired by the human brain.</li>
+    </ul>
+    <div class="note">Simple example: show a child 1,000 photos of cats and they learn to recognize a cat. Machine Learning works in a similar way.</div>
+    <h3>Where do we see AI?</h3>
+    <p>Netflix and YouTube recommendations, traffic estimates in Google Maps, face unlock on your phone, email spam filters and voice assistants all rely on AI.</p>
+    <a class="top" href="#top">↑ Back to top</a>
+  </article>
+
+  <article id="post2">
+    <span class="tag">Chatbots</span>
+    <h2>How Do Chatbots Like ChatGPT Work?</h2>
+    <div class="meta">12 November 2026 · 4 min read</div>
+    <p>Modern chatbots are built on <strong>Large Language Models (LLMs)</strong>. These models learn from huge amounts of text such as books, articles and websites.</p>
+    <h3>What happens inside?</h3>
+    <ul>
+      <li><strong>Training:</strong> The model reads massive amounts of text and learns the patterns of language.</li>
+      <li><strong>Prediction:</strong> When you type something, the model calculates the most suitable next word, then the next, and builds a full answer step by step.</li>
+      <li><strong>Fine-tuning:</strong> Humans then give feedback so the answers become more helpful and safe.</li>
+    </ul>
+    <div class="note">Keep in mind: chatbots can sometimes be wrong while sounding very confident. Always verify important information.</div>
+    <h3>Tips for better answers</h3>
+    <ul>
+      <li>Ask clear, detailed questions.</li>
+      <li>Share context (for example, "I am a high school student").</li>
+      <li>If the answer isn't right, ask the chatbot to improve it.</li>
+    </ul>
+    <a class="top" href="#top">↑ Back to top</a>
+  </article>
+
+  <article id="post3">
+    <span class="tag">Daily Life</span>
+    <h2>7 Everyday Uses of AI</h2>
+    <div class="meta">12 November 2026 · 3 min read</div>
+    <ul>
+      <li><strong>Studying:</strong> Get difficult topics explained with simple examples.</li>
+      <li><strong>Writing:</strong> Draft emails, applications or social media posts.</li>
+      <li><strong>Translation:</strong> Translate between Hindi, English and many other languages.</li>
+      <li><strong>Planning:</strong> Create trip itineraries, study timetables or budgets.</li>
+      <li><strong>Coding:</strong> Understand code and find errors as a beginner.</li>
+      <li><strong>Creativity:</strong> Brainstorm names, slogans and story ideas.</li>
+      <li><strong>Summaries:</strong> Turn long documents into short summaries.</li>
+    </ul>
+    <div class="note">Tip: think of AI as your <em>assistant</em>, not your brain. The final decision and the final check are always yours.</div>
+    <a class="top" href="#top">↑ Back to top</a>
+  </article>
+
+  <article id="post4">
+    <span class="tag">Opinion</span>
+    <h2>The Benefits and Risks of AI</h2>
+    <div class="meta">12 November 2026 · 4 min read</div>
+    <h3>Benefits</h3>
+    <ul>
+      <li>Work gets done faster and saves time.</li>
+      <li>Helps in fields like healthcare, education and farming.</li>
+      <li>Makes learning easier for beginners.</li>
+    </ul>
+    <h3>Risks and challenges</h3>
+    <ul>
+      <li><strong>Misinformation:</strong> AI can produce wrong or made-up content.</li>
+      <li><strong>Deepfakes and fraud:</strong> Fake photos, videos or voices can be used to cheat people.</li>
+      <li><strong>Privacy:</strong> Never share personal details such as OTPs, bank info or ID numbers with AI tools.</li>
+      <li><strong>Impact on jobs:</strong> Some jobs will change, so continuous learning matters.</li>
+    </ul>
+    <p><strong>Bottom line:</strong> AI is a powerful tool. Used wisely, it brings great benefits. Trusted blindly, it can cause harm.</p>
+    <a class="top" href="#top">↑ Back to top</a>
+  </article>
+
+  <section id="about">
+    <h2 class="section">About</h2>
+    <p>AI Duniya is a small blog with one goal: to make Artificial Intelligence easy to understand for everyone.</p>
+  </section>
+
+  <section id="contact">
+    <h2 class="section">Contact</h2>
+    <p>Have a question or suggestion? Email me at <a href="mailto:kunalxubey001@gmail.com" style="color:var(--accent)">kunalxubey001@gmail.com</a></p>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">© 2026 AI Duniya. All rights reserved.</div>
+</footer>
+
+</body>
+</html>
